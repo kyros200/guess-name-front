@@ -1,0 +1,38 @@
+.game-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-container > .game-content {
+  width: 70%;
+  text-align: center;
+}
+.game-container > .game-content > .counter {
+  margin-top: 170px;
+  margin-bottom: 20px;
+}
+.game-container > .game-content > .text {
+  font-size: 64px;
+  margin-bottom: 30px;
+}
+.game-container > .game-content > .subtext {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.game-container > .game-content .button {
+  margin: 12px;
+}
+.game-container > .game-content > .button-container {
+  display: flex;
+  justify-content: center;
+}
+.game-container > .game-content .button.red {
+  background-color: red;
+}
+.game-container > .game-content .button.green {
+  background-color: green;
+}
+.game-container > .game-content .button.orange {
+  background-color: orange;
+}
